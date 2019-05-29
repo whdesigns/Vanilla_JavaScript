@@ -1,26 +1,26 @@
 //FUNCTIONS 
 
-//Functions let us wrap bits of code up into REUSABLE packages.  They are one of the building blocks of JS.
+//Functions let us wrap bits of code up into REUSABLE packages. They are the foundations JS.
 
 //Declare a function first:
-function doSomething() {
+function callAction() {
     console.log("HELLO WORLD");
 }
 
 //Then call it:
-doSomething();
-doSomething();
-doSomething();
-doSomething();
+callAction();
+callAction();
+callAction();
+callAction();
 
 
 
-//Suppose I want to write code to sing "Twinkle Twinkle Little Star"
+//Suppose I need to write code to sing "Twinkle Twinkle Little Star"
 console.log("Twinkle, twinkle, little star,");
 console.log("How I wonder what you are!");
 console.log("Up above the world so high,");
 console.log("Like a diamond in the sky.");
-//To sing it again, I have to rewrite all the code.  This is not DRY!
+//To sing it again, I have to rewrite all the code.  This is NOT DRY!
 console.log("Twinkle, twinkle, little star,");
 console.log("How I wonder what you are!");
 console.log("Up above the world so high,");
@@ -33,14 +33,14 @@ function singSong() {
     console.log("Like a diamond in the sky.");
 }
 //To sing the song, we just need to call singSong();
-//to sing the entire song 4 times
+//To sing the entire song 4 times call it 4 times.
 singSong();
 singSong();
 singSong();
 singSong();
 
 
-//Often we want to write functions that take inputs.
+//Often times we want to write functions that take inputs.
 function square(num) {
     console.log(num * num);
 }
