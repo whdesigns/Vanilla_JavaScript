@@ -22,7 +22,11 @@
 
 ![](imgs/functions.png)
 
+### Functions | Return Keyword
+
 ![](imgs/functions_return.png)
+
+### Functions |Arguments
 
 ![](imgs/functions_arguments.png)
 
